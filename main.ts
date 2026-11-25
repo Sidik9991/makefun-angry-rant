@@ -91,6 +91,31 @@ const CANDIDATES: Candidate[] = [
     scores: [2, 1, 2, 2, 1],
     why: "a rant, not an essay; 'a blood sample' earns a smirk, not a laugh; one concrete form; every clause works; password-rule rants are told a hundred times a day",
   },
+  // Pass 2 challengers (C8-C10).
+  {
+    id: "C8",
+    title: "Just K",
+    line: "I wrote three paragraphs explaining the plan and he replied 'k', one letter, and somehow that single letter carried the full weight of a man who read nothing and decided everything.",
+    annoyance: "'k'",
+    scores: [2, 2, 2, 2, 1],
+    why: "a rant, not an essay; the single letter carrying the full weight is a real laugh; one concrete reply; every clause works; but the one-letter reply is already a well-worn group-chat meme",
+  },
+  {
+    id: "C9",
+    title: "Every Floor",
+    line: "He got in the lift and pressed every floor like he was playing the piano, and now we are stopping at floors nobody asked for while he hums like this is a tour.",
+    annoyance: "lift",
+    scores: [2, 2, 2, 1, 2],
+    why: "a rant, not an essay; the piano player in the lift is a real laugh; one concrete ride; the closing 'like this is a tour' is a beat that does not quite earn its place; nobody has ranted the lift as a piano before",
+  },
+  {
+    id: "C10",
+    title: "Forgot Password",
+    line: "I clicked 'forgot password' and the reset email arrived twenty minutes later, by which time I had already invented a new password, forgotten it too, and started a new life without the account.",
+    annoyance: "forgot password",
+    scores: [2, 2, 2, 2, 1],
+    why: "a rant, not an essay; starting a new life without the account is a real laugh; one concrete reset email; every clause works; but the late reset email is a familiar annoyance with a familiar punchline",
+  },
 ];
 
 function total(c: Candidate): number {
